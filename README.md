@@ -7,6 +7,20 @@ This repo for multi devices sibernetic engine implementation. This implementatio
 For building you have to run command `make -f makefile` it will create bin folder and create executable file
 To clean all building arifacts you have to run command `make clean`
 
+### Run options
+```
+Usage: ./bin/sibernetic [OPTION]
+    --multi_dev                Run with all available devices.
+                               but default it will run only one.
+    -f <config_file>           Path to configuration file.
+    -help, -h, -?, --help      Print this information.
+    --p_sort turn on parallel sorting.
+    -iter_limit=<number> limit for number of iteration simulation will preferme before stop.
+    -time_limit=0.5 limit of time simulation in seconds (will run 0.5 seconds of simulation).
+Full documentation at: <https://github.com/openworm/multi-dev-sibernetic/>
+Please report any bugs/issues to: <https://github.com/openworm/multi-dev-sibernetic/issues>
+```
+
 # Algorithm
 Add it soon
 ...

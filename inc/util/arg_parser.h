@@ -50,15 +50,19 @@ public:
         << "with many posibilities"
         << "a set of biomechanics related features"
         << "Usage: ./bin/sibernetic [OPTION]\n\n"
-        << "    --multi_dev                Run without on all available "
+        << "    --multi_dev                Run with all available "
            "devices\n"
         << "                               but default it will run only "
            "one.\n\n"
         << "    -f <config_file>           Path to configuration file.\n\n"
         << "    -help, -h, -?, --help      Print this information\n\n"
+        << "    --p_sort turn on parallel sorting\n\n"
+        << "    -iter_limit=<number> limit for number of iteration simulation will preferme before stop\n\n"
+        << "    -time_limit=0.5 limit of time simulation in seconds (will run 0.5 seconds of simulation)\n\n"
         << "Full documentation at: <https://github.com/openworm/sibernetic>\n"
         << "Please report any bugs/issues "
-        << "to: <https://github.com/openworm/sibernetic/issues>\n";
+        << "to: <https://github.com/openworm/multi-dev-sibernetic/issues>\n"
+        << "email: s.khayrulin@[gmail.com|openworm.org]";
     return EXIT_SUCCESS;
   }
 private:
